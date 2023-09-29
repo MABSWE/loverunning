@@ -53,8 +53,18 @@ main {
 }
 
 /*Footer*/
-footer {
-    background-color: white;
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+#social-networks i {
+    font-size: 100%;
+    padding: 5%;
+    color: #3a3a3a
 }
 
 #menu {
