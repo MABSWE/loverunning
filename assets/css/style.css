@@ -1,12 +1,20 @@
 /* Asterisk wildcard selector to override default styles added by the browser */
-  *  {
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-/* Header */
+/* General styles*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic projet styles*/
+    color: #3a3a3a;
+}
 
+/* Header */
 header {
     background-color: rgb(161, 216, 129);
 }
@@ -14,6 +22,8 @@ header {
 /* Main content */
 main {
     background-color: rgb(21, 139, 243);
+    /* Make element to take up any surplus space to push footer down*/
+    flex: 1 0 auto;
 }
 
 /*Footer*/
